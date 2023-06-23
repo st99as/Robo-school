@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     background-color: #141024;
+    background-size: cover;
     height: 1080px;
     color: white;
 }
@@ -29,7 +30,6 @@ line-height: 160%;
 .header_phone{
     display: flex;
     text-align: end;
-
 }
 .H_L_M_I{
     display: flex;
@@ -79,15 +79,319 @@ border-radius: 10px;
 }
 .header_image1{
     position: absolute;
-    top: -567px;
-    left: 1000px;
+    top: -566px;
+    left: 1100px;
     z-index: 999;
 }
 .header_image2{
     position: absolute;
-    top: -400px;
-    left: 859px;
+    top: -448px;
+    left: 959px;
     z-index: 99;
 }
+.about_title{
+    padding-top: 120px;
+    color: #141024;
+font-size: 30px;
+font-family: Jost;
+font-weight: 600;
+line-height: 160%;
+}
+.about_title span{
+    font-weight: 800;
+    font-size: 40px;
+}
+.about{
+    padding:0px  380px;
+}
+.about_cards{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.about_card_title{
+    color: #D52027;
+    font-size: 70px;
+    font-family: Jost;
+    font-weight: 600;
+    line-height: 160%;
+}
+.about_card_text{
+    color: rgba(20, 16, 36, 0.70);
+font-size: 18px;
+font-family: Jost;
+line-height: 160%;
+width: 260px;
+}
+.benefits{
+    padding: 0  380px;
+    background-color: #F9F9F9;
+}
+.benefits_title{
+    padding-top: 100px;
+    color: #141024;
+    font-size: 50px;
+    font-family: Jost;
+    font-weight: 600;
+    line-height: 160%;
+    padding-bottom: 60px;
+}
+.benefits_cards{
+    display: flex;
+    gap: 40px;
+}
+.benefits_card{
 
+}
+.benefits_card_title{
+    color: #141024;
+    font-size: 24px;
+    font-family: Jost;
+    font-weight: 600;
+    line-height: 160%;
+    padding-bottom: 20px;
+}
+.benefits_card_text{
+    color: rgba(20, 16, 36, 0.70);
+    font-size: 18px;
+    font-family: Jost;
+    line-height: 160%;
+}
+.trainers{
+    padding: 0  380px;
+}
+.trainers_title{
+    color: #141024;
+font-size: 50px;
+font-family: Jost;
+font-weight: 600;
+line-height: 160%;
+padding-top: 120px;
+padding-bottom: 60px;
+}
+.trainer_name{
+    padding-top: 20px;
+    color: #141024;
+font-size: 24px;
+font-family: Jost;
+font-weight: 600;
+line-height: 160%;
+padding-bottom: 10px;  
+}
+.trainer_text{
+    color: rgba(20, 16, 36, 0.70);
+font-size: 18px;
+font-family: Jost;
+line-height: 160%;
+padding-bottom: 20px; 
+}
+.trainer_more{
+    color: #D52027;
+font-size: 18px;
+font-family: Jost;
+line-height: 160%;
+}
+.trainers_cards{
+    display: flex;
+    gap: 40px;
+}
+.price_card{
+    text-align: center;
+    width: 360px;
+height: 460px;
+border-radius: 20px;
+border: 1px solid rgba(20, 16, 36, 0.20);
+transition: 0.5s linear;
+}
+.price_card:hover{
+    width: 360px;
+height: 500px;
+border-radius: 20px;
+background: #141024;
+margin-top: -20px;
+margin-bottom: -20px;
+}
+.price_card:hover .price_card_title{
+   color: #FFFFFF ;
+}
+.price_card:hover .price_card_price{
+    color: #FFFFFF ;
+ }
+ .price_card:hover .price_card_YMK{
+    color: #FFFFFF ;
+ }
+.price{
+    padding: 0  380px;
+}
+.price_title{
+    color: #141024;
+font-size: 50px;
+font-family: Jost;
+font-weight: 600;
+line-height: 160%;
+padding-top: 138px;
+}
+.price_card_title{
+    color: #141024;
+text-align: center;
+font-size: 30px;
+font-family: Jost;
+font-weight: 600;
+line-height: 160%;
+padding-top: 40px;
+}
+.price_card_price{
+    padding-top: 62px;
+    color: #141024;
+    text-align: center;
+    font-size: 50px;
+    font-family: Jost;
+    font-weight: 600;
+    line-height: 160%;
+}
+.price_card_YMK{
+    padding-top: 20px;
+    padding-bottom: 63px;
+    color: #141024;
+text-align: center;
+font-size: 18px;
+font-family: Jost;
+line-height: 160%;
+height: 58px;
+}
+.price_button{
+    color: #FFF;
+text-align: center;
+font-size: 18px;
+font-family: Jost;
+line-height: 160%;
 
+padding: 25px 54px;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+background: #D52027;
+}
+.price_cards{
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+}
+/* .price_card:hover .form_kurs{
+    margin-top: 80px;
+} */
+.form_kurs{
+    margin-top: 100px;
+    background-color: #D52027;
+    padding: 0px 440px;
+}
+.f_k_title{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    color: #FFF;
+font-size: 36px;
+font-family: Jost;
+font-weight: 600;
+line-height: 130%;
+display: flex;
+width: 476px;
+flex-direction: column;
+flex-shrink: 0;
+}
+.f_k_text{
+    color: #FFF;
+font-size: 20px;
+font-family: Jost;
+line-height: 130%;
+}
+.f_K_blok{
+    display: flex;
+}
+.form_f_k{
+    display: block;
+    margin-top: 87px;
+    margin-bottom: 80px;
+}
+.f_text{
+    width: 500px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #F6F6F6;
+color: rgba(40, 41, 68, 0.70);
+font-size: 18px;
+font-family: Jost;
+padding: 20px 19px;
+}
+.f_phone{
+    margin-top: 10px;
+    width: 500px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F6F6F6;
+    color: rgba(40, 41, 68, 0.70);
+    font-size: 18px;
+    font-family: Jost;
+    padding: 20px 19px;
+}
+.f_email{
+    margin-top: 10px;
+    width: 500px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F6F6F6;
+    color: rgba(40, 41, 68, 0.70);
+    font-size: 18px;
+    font-family: Jost;
+    padding: 20px 19px;
+}
+.f_butn{
+    margin-top: 10px;
+    width: 542px;
+    color: #FFF;
+text-align: center;
+font-size: 18px;
+font-family: Jost;
+border-radius: 5px;
+background: #141024;
+padding: 20px   183px;
+}
+.F_K_Text_block{
+    padding-right: 64px;
+}
+.footer{
+    background: #141024;
+    padding: 0px 100px;
+}
+.footer_title{
+    color: #FFF;
+    font-size: 30px;
+    font-family: Jost;
+    font-weight: 700;
+    line-height: 160%;
+}
+.footer_phone{
+    color: #FFF;
+    text-align: right;
+    font-size: 30px;
+    font-family: Jost;
+    font-weight: 600;
+    line-height: 160%;
+}
+.footer_text{
+    color: rgba(255, 255, 255, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-family: Jost;
+    line-height: 160%;
+}
+.footer_all_text{
+    padding-top: 40px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_text{
+    display: flex;
+    justify-content: left;
+}
