@@ -28,8 +28,8 @@
                 <div class="header_button"><a class="button" href="@">Записаться на курс</a></div>
             </div>
             <div class="header_images">
-                <img src="portrait-smiling-nostalgic-female-student-looking-upper-left-corner-holding-notebooks 1.png" alt="" class="header_image1">
-                <img src="Ellipse 29.png" alt="" class="header_image2">
+                <div class="header_image_1"><img src="portrait-smiling-nostalgic-female-student-looking-upper-left-corner-holding-notebooks 1.png" alt="" class="header_image1"></div>
+                <div class="header_image_2"></div><img src="Ellipse 29.png" alt="" class="header_image2"></div>
             </div>
         </div>
     </div>
@@ -79,12 +79,13 @@
     <div class="trainers">
         <div class="container">
             <div class="trainers_title">Профессиональные тренеры</div>
+        <div class="slider">
             <div class="trainers_cards">
                 <div class="trainer_card">
                     <img src="unsplash_Zz5LQe-VSMY.jpg" alt="" class="trainer_img">
                     <div class="trainer_name">Ирина Лайм</div>
                     <div class="trainer_text">преподаватель по робототехнике</div>
-                    <div class="trainer_more">Подробнее</div>
+                    <div class="trainer_more" id="trainer_more_1">Подробнее</div>
                 </div>
                 <div class="trainer_card">
                     <img src="unsplash_IF9TK5Uy-KI.jpg" alt="" class="trainer_img">
@@ -98,7 +99,63 @@
                     <div class="trainer_text">преподаватель по программированию</div>
                     <div class="trainer_more">Подробнее</div>
                 </div>
+                <div class="trainer_card">
+                    <img src="unsplash_rriAI0nhcbc.jpg" alt="" class="trainer_img">
+                    <div class="trainer_name">Константин Назаров</div>
+                    <div class="trainer_text">преподаватель по робототехнике</div>
+                    <div class="trainer_more">Подробнее</div>
+                </div>
+                <div class="trainer_card">
+                    <img src="unsplash_Z_bTArFy6ks.jpg" alt="" class="trainer_img">
+                    <div class="trainer_name">Лиза Весенняя</div>
+                    <div class="trainer_text">преподаватель по программированию</div>
+                    <div class="trainer_more">Подробнее</div>
+                </div>
             </div>
+            <div class="knopki_strelki">
+                <img src="Arrow - Right Circle.svg" class="knopka_slider_p"></img>
+                <img src="Arrow - Right Circle.png" class="knopka_slider"></img>
+            </div>
+        </div>
+        <div class="modal" id="modal1">
+            <div class="modal_window" id="modal_1">
+                <div class="modal_title">
+                    <img src="unsplash_Zz5LQe-VSMY.jpg" alt="" class="modal_img">
+                    <div class="modal_title_text">
+                    <div class="m_t_name">Марина Орлова</div>
+                    <div class="m_t_dolz">преподаватель по робототехнике</div>
+                <div class="modal_logos">
+                    <a href="@" class="facebook_logo"><img src="Facebook.svg" alt=""></a>
+                    <a href="@" class="instagram_logo"><img src="Instagram.svg" alt=""></a>
+                </div>
+                </div>
+                <div class="close_modal">Закрыть</div>
+            </div>
+            <div class="modal_line">
+                <div class="modal_line_buttons">Образование</div>
+                <div class="modal_line_buttons">Опыт работы</div>
+                <div class="modal_line_buttons">Награды</div>
+            </div>
+            <div class="modal_text">
+                <div class="m_t_1text">
+                    Сентябрь 1995 — Июнь 2000
+Санкт-Петербургский политехнический университет Петра Великого
+Факультет: Компьютерных наук и технологий
+Специальность: Математика и компьютерные науки
+Форма обучения: Очная
+                </div>
+                <div class="m_t_text2_title">
+                    Курсы и тренинги
+                </div>
+                <div class="m_t_2text">
+                    Ноябрь 2020 — Февраль 2021
+Программа дополнительного образования «3D Моделирование»
+Место проведения: Институт дополнительного образования «Политех»
+
+                </div>
+            </div>
+            </div>
+        </div>
         </div>
     </div>
     <div class="price">
@@ -142,6 +199,9 @@
                     </form>
                 </div>
             </div>
+            <div class="backg_form_img">
+                <!-- <img src="foot_back.png" alt="" class="b_f_i"> -->
+            </div>
         </div>
     </div>
     <div class="footer">
@@ -151,5 +211,6 @@
         </div>
         <div class="footer_text">© ROBO.SCHOOL</div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
